@@ -1,0 +1,28 @@
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+    .product-item {
+        transition: transform 0.3s;
+    }
+    .product-item:hover {
+        transform: scale(1.05);
+    }
+    .shop-now-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+    }
+    .custom-footer {
+        background-color: #f8f8f8;
+        padding: 20px;
+        text-align: center;
+    }
+    .newsletter-signup input {
+        padding: 10px;
+        margin-right: 10px;
+    }
